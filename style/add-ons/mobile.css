@@ -4,6 +4,15 @@
         max-width: 100%;
     }
 
+    html{
+        height: 100%;
+    }
+
+    body{
+        height: 100%;
+    }
+    
+
     .header {
         height: 50px;
     }
