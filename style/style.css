@@ -4,15 +4,10 @@
     box-sizing: border-box;
 }
 
-html{
-    height: 100%;
-}
-
 body{
-    height: 100%;
-    background-color: #000000;
     height: 100vh;
     margin: 0 auto;
+    background-color: #000000;
     font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: 600;
     letter-spacing: -.003em;
