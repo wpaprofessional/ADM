@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+.interface {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.fixed {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}

@@ -1,0 +1,70 @@
+@media screen and (max-width: 768px) {
+
+    * {
+        max-width: 100%;
+    }
+
+    .header {
+        height: 50px;
+    }
+
+    .header-h1 {
+        font-size: 1.5rem;
+    }
+
+    .header-h2 {
+        font-size: 0.9rem;
+    }
+
+    .main {
+        margin-top: -40px;
+        display: block;
+        padding: 120px 110px;
+    }
+
+    #mobile {
+        margin-top: 100px;
+    }
+
+    .section-main:hover .sobreposicao {
+        display: none;
+    }
+
+    .mobile-cliqueaqui {
+        display: block;
+        margin-left: 15px;
+        animation: go-back 1s infinite alternate;
+    }
+
+    @keyframes go-back {
+        from {
+            transform: translateY(15px);
+        }
+
+        to {
+            transform: translateY(0);
+        }
+    }
+
+    .footer {
+        text-align: center;
+        align-items: center;
+        width: auto;
+        padding: 10px 20px;
+        margin: auto;
+        gap: 1rem;
+    }
+
+    .footer-img {
+        width: 150px;
+    }
+
+    .direitos {
+        font-size: 0.9rem;
+    }
+
+    .politica {
+        font-size: 0.9rem;
+    }
+
+}

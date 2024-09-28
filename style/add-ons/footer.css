@@ -1,0 +1,29 @@
+.linha{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 350px;
+    margin-left: 10px;
+    margin-top: 325px;
+    gap: 4rem;
+}
+
+.flex{
+    justify-content: space-between;
+}
+
+.direitos {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.politica {
+    color: #fff;
+    font-size: 1rem;
+}
