@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 
+.html{
+    height: 100%;
+}
+
 body{
+    height: 100%;
     background-color: #000000;
     height: 100vh;
     margin: 0 auto;
