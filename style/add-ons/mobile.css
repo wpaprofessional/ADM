@@ -22,13 +22,12 @@
     }
 
     .main {
-        height: 100vh;
         display: block;
         padding: 120px 110px;
     }
 
     #mobile {
-        margin-top: 100px;
+        margin-top: 60px;
     }
 
     .section-main:hover .sobreposicao {
@@ -56,7 +55,7 @@
         width: 100%;
         background-color: #000;
         color: #fff;
-        margin-top: -150px;
+        margin-top: auto;
     }
 
     .footer-img {
