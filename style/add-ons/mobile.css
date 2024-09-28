@@ -4,10 +4,10 @@
         max-width: 100%;
     }
 
-    html{
+    html {
         height: 100%;
     }
-    
+
 
     .header {
         height: 50px;
@@ -52,24 +52,27 @@
     }
 
     .footer {
-        text-align: center;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        width: auto;
         padding: 10px 20px;
-        margin-top: -150px;
-        gap: 1rem;
+        width: 100%;
+        background-color: #000;
+        color: #fff;
+        position: relative;
+        margin-top: -130px;
     }
 
     .footer-img {
         width: 150px;
+        max-width: 100%;
     }
 
-    .direitos {
-        font-size: 0.9rem;
-    }
-
+    .direitos,
     .politica {
         font-size: 0.9rem;
+        margin: 0 10px;
+        text-align: center;
     }
 
 }

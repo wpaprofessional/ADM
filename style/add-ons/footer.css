@@ -12,18 +12,14 @@
     margin-left: 10px;
     margin-top: 325px;
     gap: 4rem;
+    width: 100%;
 }
 
 .flex{
     justify-content: space-between;
 }
 
-.direitos {
-    color: #fff;
-    font-size: 1rem;
-}
-
-.politica {
+.direitos, .politica {
     color: #fff;
     font-size: 1rem;
 }
